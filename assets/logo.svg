@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title-jalin-logo">
+  <title id="title-jalin-logo">Jalin App Logo</title>
+  <defs>
+    <!-- Dark Luxury Obsidian Backdrop Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Backdrop & Precision Inset Border -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect width="508" height="508" x="2" y="2" rx="110" fill="none" stroke="#1E293B" stroke-width="2" stroke-opacity="0.8"/>
+
+  <!-- Centered Scaled Geometry (Scale = 1.45, Center offset = (71, 71)) -->
+  <g id="jalin-mark" transform="matrix(1.45 0 0 1.45 70.4 70.4)">
+    <!-- J-Stem Upper Segment -->
+    <rect x="154" y="28" width="28" height="52" rx="4" fill="#00F2FE"/>
+    
+    <!-- Loop 2 (Cross-Weave Loop, Vivid Violet #8B5CF6) -->
+    <path d="M 114 92 L 186 92 A 14 14 0 0 1 200 106 A 14 14 0 0 1 186 120 L 114 120 Z" fill="#8B5CF6"/>
+    <path d="M 62 92 A 14 14 0 0 0 48 106 A 14 14 0 0 0 62 120 Z" fill="#8B5CF6"/>
+    
+    <!-- Main J-Hook (Continuous on left) -->
+    <path d="M 182 132 L 182 156 A 58 58 0 0 1 66 156 L 66 76 L 94 76 L 94 156 A 30 30 0 0 0 154 156 L 154 132 Z" fill="#00F2FE"/>
+    
+    <!-- Terminal Node -->
+    <circle cx="80" cy="52" r="14" fill="#38BDF8"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title-jalin-mark">
+  <title id="title-jalin-mark">Jalin Brand Mark</title>
+  <!-- Conduit 1 (Inflow/J-Stem & Hook): Electric Cyan #00F2FE -->
+  <!-- Conduit 2 (Cross-Weave Loop): Vivid Violet #8B5CF6 -->
+  <!-- Signal Node: Sky Cyan #38BDF8 -->
+  <g id="jalin-mark">
+    <!-- J-Stem Upper Segment (descends to y=80, leaving 12px gap above Loop 2 at y=92) -->
+    <rect x="154" y="28" width="28" height="52" rx="4" fill="#00F2FE"/>
+    
+    <!-- Loop 2 (Cross-Weave Loop, Vivid Violet #8B5CF6): Passes OVER the stem on the right -->
+    <!-- Right portion of Loop 2 (from x=114 to right cap at x=200, over the stem) -->
+    <path d="M 114 92 L 186 92 A 14 14 0 0 1 200 106 A 14 14 0 0 1 186 120 L 114 120 Z" fill="#8B5CF6"/>
+    
+    <!-- Left portion of Loop 2 (passes behind hook, leaves 12px gap on both sides of hook x=74..102) -->
+    <!-- Left outer cap from x=42 to x=62 -->
+    <path d="M 62 92 A 14 14 0 0 0 48 106 A 14 14 0 0 0 62 120 Z" fill="#8B5CF6"/>
+    
+    <!-- Main J-Hook (Continuous on the left, passing OVER Loop 2) -->
+    <!-- Starts below Loop 2 on right at y=132 (leaving 12px gap from y=120) -->
+    <!-- Descends to y=156, sweeps R_out=58, R_in=30 around center (126, 156) -->
+    <!-- Rises continuously on the left up to y=76 -->
+    <path d="M 182 132 L 182 156 A 58 58 0 0 1 66 156 L 66 76 L 94 76 L 94 156 A 30 30 0 0 0 154 156 L 154 132 Z" fill="#00F2FE"/>
+    
+    <!-- Dynamic terminal node on top left -->
+    <circle cx="80" cy="52" r="14" fill="#38BDF8"/>
+  </g>
+</svg>
